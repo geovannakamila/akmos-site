@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos Akmos - Consultora Gislane</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7fdfd;
+            color: #333;
+        }
+        header {
+            background-color: #009688;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header h2 {
+            margin: 10px 0 0;
+            font-weight: 300;
+        }
+        main {
+            padding: 30px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .sobre {
+            margin-bottom: 40px;
+        }
+        .sobre p {
+            font-size: 1.1em;
+        }
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .produto {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        .produto:hover {
+            transform: translateY(-5px);
+        }
+        .produto h4 {
+            margin-top: 0;
+            color: #009688;
+        }
+        .produto p {
+            font-size: 0.95em;
+        }
+        .contato {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .botao-whats {
+            background-color: #25D366;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: background 0.3s;
+        }
+        .botao-whats:hover {
+            background-color: #1ebc59;
+        }
+        footer {
+            background-color: #eee;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .produto {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Produtos Akmos</h1>
+    <h2>Consultora Gislane</h2>
+</header>
+
+<main>
+
+    <section class="sobre">
+        <h3>Sobre a Consultora</h3>
+        <p>Olá! Sou a <strong>Gislane</strong>, consultora oficial Akmos. Trabalho com produtos naturais e de alta qualidade para melhorar sua saúde, bem-estar e beleza. Estou à disposição para te ajudar a escolher os melhores itens para você ou sua família!</p>
+    </section>
+
+    <section>
+        <h3>Conheça nossos produtos</h3>
+        <div class="produtos">
+            <div class="produto">
+                <h4>🧃 Suplementos Naturais</h4>
+                <p>Vitaminas, minerais e compostos naturais para aumentar sua imunidade, energia e qualidade de vida.</p>
+            </div>
+            <div class="produto">
+                <h4>💄 Cosméticos Naturais</h4>
+                <p>Cremes, shampoos e loções sem química agressiva. Perfeitos para todos os tipos de pele e cabelo.</p>
+            </div>
+            <div class="produto">
+                <h4>🌿 Óleos Essenciais</h4>
+                <p>Produtos para aromaterapia e relaxamento. Alivie o estresse e melhore seu sono com a natureza ao seu lado.</p>
+            </div>
+            <div class="produto">
+                <h4>💆 Aparelhos de Bem-Estar</h4>
+                <p>Tecnologia e inovação para massagens, postura, dores musculares e muito mais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h3>Fale comigo</h3>
+        <a class="botao-whats" href="https://wa.me/5562981304152" target="_blank">
+            <i class="bi bi-whatsapp"></i> Falar no WhatsApp
+        </a>
+        <p style="margin-top: 10px;">Número: <strong>(62) 98130-4152</strong></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 Consultora Gislane - Distribuidora Akmos</p>
+</footer>
+
+</body>
+</html>
